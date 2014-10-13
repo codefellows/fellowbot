@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-gitter": "0.0.2",
+    "hubot-gitter2": "^0.1.3",
     "hubot-scripts": ">= 2.5.0 < 3.0.0"
   },
   "engines": {
@@ -30,6 +30,6 @@
     "npm": ">= 1.1.x"
   },
   "scripts": {
-    "start": "ROOM=codefellows/CodeFellows,sea-b15-javascript ./bin/hubot --name cfbot -a gitter"
+    "start": "./bin/hubot --name cfbot -a gitter2"
   }
 }

@@ -1,1 +1,1 @@
-web: bin/hubot -a gitter -n cfbot
+web: bin/hubot -a gitter2 -n cfbot
